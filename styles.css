@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #080808;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    background-color: #f8f4f4;
+    overflow: hidden;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(17, 10, 10);
+    font-size: 1.2em;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+}
+
+.hero-section {
+    background-image: url('bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(15, 14, 14);
+    text-align: center;
+}
+
+.hero-section .content h1 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.hero-section .content p {
+    font-size: 1.5em;
+}
+.sign-in-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.sign-in-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.sign-in-box h2 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.sign-in-box label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.sign-in-box input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+
+.sign-in-box button {
+    background-color: #007bff;
+    color: rgb(244, 239, 239);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.sign-in-box button:hover {
+    background-color: #0d0d0e;
+}
+/* Emergency Alert Box */
+.alert-box {
+    background-color: #edeaea;
+    color: rgb(4, 3, 3);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.alert-box .alert-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert-box p {
+    font-size: 1.2em;
+}
+
+.dismiss-btn {
+    background-color: rgb(12, 11, 11);
+    color: #fdfcfc;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dismiss-btn:hover {
+    background-color: #0c0c0c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: rgb(230, 213, 213);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

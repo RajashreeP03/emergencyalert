@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Alert and Notification System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="security.html">SECURITY</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="signin.html">SIGN IN</a><a href="newacc.html"></a></li>
+        </ul>
+    </nav>
+    <section class="hero-section">
+        <div class="content">
+            <h1>Emergency Alert and Notification System</h1>
+            <p>Stay alert and be informed during any crisis or emergency.</p>
+        </div>
+    </section>
+
+    <section class="alert-box">
+        <div class="alert-content">
+            <p><strong>Emergency Alert:</strong> Severe weather warning in your area. Stay indoors and stay safe!</p>
+            <button class="dismiss-btn" onclick="dismissAlert()">Dismiss</button>
+        </div>
+    </section>
+
+   
+    <footer>
+        <p>© 2024 Emergency Alert System. All Rights Reserved.</p>
+    </footer>
+
+    <script >
+      
+        function dismissAlert() {
+            document.querySelector('.alert-box').style.display = 'none';
+        }
+        
+    </script>
+
+</body>
+</html>
